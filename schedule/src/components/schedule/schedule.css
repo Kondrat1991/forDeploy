@@ -134,13 +134,20 @@
 }
 
 .accordion:after {
-    content:url(/rsz_1arrow-down.png);
+    content:"❮";
+    display:block;
     color:#000;
-    float:right
+    float:right;
+    transform: rotate(-90deg);
 }
 
 .active:after {
-    content:url(/rsz_3up-thin.png)
+    content:"❮";;
+    display:block;
+    color:#000;
+    float:right;
+    transform: rotate(90deg);
+
 }
 
 .task__panel {
